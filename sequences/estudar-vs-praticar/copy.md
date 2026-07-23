@@ -1,7 +1,7 @@
 sequence: estudar-vs-praticar
 image: estudar-vs-praticar.jpg
 font: montserrat
-status: approved
+status: draft
 ===
 
 # CAPTION
@@ -83,6 +83,8 @@ Uma forma fácil | de lembrar:
 Estudar = entender | Praticar = usar
 
 Estudar = conhecimento | Praticar = habilidade
+
+Estudar = base | Praticar = fluência
 
 ## 10
 Não adianta estudar | durante anos
