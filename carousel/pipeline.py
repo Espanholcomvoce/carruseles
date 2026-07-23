@@ -86,6 +86,9 @@ def cmd_show(name):
             if g["type"] == "checklist":
                 for it in g["items"]:
                     print(f"  ✓ {it}")
+            elif g["type"] == "listbox":
+                for it in g["items"]:
+                    print(f"  • {it}")
             else:
                 print("  " + " / ".join(g["lines"]))
         print()

@@ -98,18 +98,21 @@ def _parse_slide_block(block):
         if not lines:
             continue
         is_checklist = any(ln.lstrip().startswith("- ") for ln in lines)
-        if is_checklist:
+        is_listbox = any(ln.lstrip().startswith("> ") for ln in lines)
+        if is_checklist or is_listbox:
+            marker = "- " if is_checklist else "> "
+            gtype = "checklist" if is_checklist else "listbox"
             title = None
             items = []
             for ln in lines:
                 s = ln.strip()
                 if s.lower().startswith(":title:"):
                     title = s[len(":title:"):].strip()
-                elif s.startswith("- "):
-                    items.append(s[2:].strip())
+                elif s.startswith(marker):
+                    items.append(s[len(marker):].strip())
             if title:
                 groups.append({"type": "text", "lines": [title]})
-            groups.append({"type": "checklist", "items": items})
+            groups.append({"type": gtype, "items": items})
         else:
             text_lines = []
             for ln in lines:

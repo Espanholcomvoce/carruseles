@@ -41,6 +41,12 @@ def _group_html(g, fg):
             f'<div class="item">{chk}<span>{html.escape(it)}</span></div>'
             for it in g["items"])
         return f'<div class="sticker checklist"><div class="clbox">{items}</div></div>'
+    if g["type"] == "listbox":
+        # recuadro sólido sin tildes; cada ítem puede empezar con una bandera 🇦🇷
+        items = "".join(
+            f'<div class="item"><span>{html.escape(it)}</span></div>'
+            for it in g["items"])
+        return f'<div class="sticker checklist"><div class="clbox listbox">{items}</div></div>'
     lines = g["lines"]
     bg_lines = "".join(f'<div class="line">{html.escape(t)}</div>' for t in lines)
     fg_lines = "".join(f'<div class="line">{html.escape(t)}</div>' for t in lines)

@@ -73,6 +73,36 @@ casi solo.
 
 ---
 
+## 3.b. Línea editorial: "1 palavra, +20 países" 🍿
+
+Serie recurrente de posicionamiento. Cada post toma una palabra cotidiana y
+muestra cómo se dice en cada país (bandera + país + palabra), y **cierra
+contra-corriente**: no necesitás memorizar todo eso — con el término neutro te
+entienden en todos lados. Base con autoridad (RAE / Diccionario de americanismos).
+Posiciona el método: *enseño el español como un todo, no el de un país; pero si
+querés las jergas de un lugar, también.*
+
+Estructura (usa el tipo `listbox` con banderas):
+1. Gancho — "Como se diz X em espanhol?"
+2. Tensión — "existem mais de 10 formas"
+3–5. Listas país+palabra (bandera 🇦🇷)
+6–8. Reencuadre — "não precisa decorar / diga o termo neutro / te entendem"
+9. Autoridad — regionalismos registrados (RAE)
+10–12. Posicionamiento — la mayoría enseña un país / yo el todo / y si querés, gírias también
+13. CTA — Imersão Nativa
+
+**Primer ejemplo:** `como-se-diz-pipoca` ✍️ (draft).
+
+Ideas de palabras para la serie: pipoca 🍿 · abacaxi/piña/ananá · ônibus (autobús/
+camión/guagua/colectivo/micro) · celular (móvil) · computador · gari/basurero ·
+morango/frutilla · bala/caramelo/dulce · mexerica/mandarina/clementina.
+
+> ⚠️ **Verificar antes de publicar** los términos menos universales (Peru
+> "canchita", Cuba "rositas de maíz", Bolívia "pipocas"). Los más sólidos:
+> palomitas, pochoclo, cabritas, cotufas, crispetas, poporopos.
+
+---
+
 ## 4. Otras estructuras (para variar los pilares)
 
 La plantilla "A × B" es una sola. Para no repetir, el mismo sistema sirve para:
