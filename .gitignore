@@ -1,0 +1,4 @@
+# archivos temporales de render
+sequences/*/output/_html/
+__pycache__/
+*.pyc
