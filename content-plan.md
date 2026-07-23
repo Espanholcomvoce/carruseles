@@ -62,6 +62,7 @@ casi solo.
 | Tema (A × B) | Ángulo | Palabra-meta del slide 9 |
 |---|---|---|
 | Estudar × Praticar ✅ (hecho) | estudo constrói / prática vira habilidade | fluência |
+| **Sotaque × Pronúncia** ✍️ (draft) | sotaque = identidade (mantém) / pronúncia = clareza (trabalha) | comunicação |
 | **Escutar (input) × Falar (output)** | ouvir muito × produzir | comunicação |
 | **Vocabulário × Gramática** | as palavras × como conectá-las | clareza |
 | **Fluência × Precisão** (soltar × acertar) | falar sem travar × falar certo | naturalidade |
@@ -76,6 +77,10 @@ casi solo.
 
 La plantilla "A × B" es una sola. Para no repetir, el mismo sistema sirve para:
 
+- **Mitos / falso dilema** — desarma una creencia. Ej. **Espanhol da Espanha ×
+  América Latina** ✍️ (draft): no es "A vs B", es un idioma solo con variedad,
+  hasta dentro de España. Estructura: mito → verdad → evidencia (dentro de
+  España / dentro de LATAM) → lo que importa → síntesis → CTA.
 - **Mitos** — "Mitos sobre aprender espanhol" (portunhol, "é fácil", "precisa
   morar fora"). Estructura: mito → verdad → por qué → qué hacer.
 - **Falsos amigos / erros comuns** — `embarazada ≠ envergonhada`,
